@@ -3,7 +3,7 @@
 #include <cambc.h>
 #include "route_info.h"
 
-namespace mack_draft {
+namespace draft {
 
 // One altar and the shortest distance from each team's spawn to a tile in tribute range.
 struct AltarInfo {
@@ -16,4 +16,4 @@ struct AltarInfo {
     AllyRoute ally_route;
 };
 
-}  // namespace mack_draft
+}  // namespace draft

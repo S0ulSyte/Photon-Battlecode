@@ -4,7 +4,7 @@
 #include <cstdint>
 #include <vector>
 
-namespace mack_draft {
+namespace draft {
 
 // One shortest route from an ally spawn tile to a camp or altar approach tile.
 struct AllyRoute {
@@ -16,4 +16,4 @@ struct AllyRoute {
     bool available = false;
 };
 
-}  // namespace mack_draft
+}  // namespace draft

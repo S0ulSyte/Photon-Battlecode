@@ -5,7 +5,7 @@
 #include <vector>
 #include "random.h"
 
-// Temporarily disabled while testing draft_mackattempt.cpp.
+// Temporarily disabled while testing draft.cpp.
 void play_draft() {
     // Choose randomly from the champions our team has not picked.
     const auto chosen = cambc::draft::current_draft(cambc::team::ally);
